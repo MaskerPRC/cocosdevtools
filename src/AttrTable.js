@@ -1,11 +1,11 @@
+/**
+ * 属性表
+ * todo:已经可以执行，进一步理解
+ */
+
+
 (function (global, factory) {
-    if (typeof exports === "object" && exports) {
-        factory(exports); // CommonJS
-    } else if (typeof define === "function" && define.amd) {
-        define(['exports'], factory); // AMD
-    } else {
-        global['tl.ui.AttrTable'] = factory({}); // <script>
-    }
+    global['AttrTable'] = factory({}); // <script>
 }(this, function (exports) {
         //var AttrTable = function(root){
         exports = function(root){

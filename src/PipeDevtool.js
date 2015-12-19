@@ -1,3 +1,9 @@
+/**
+ * 反射工具管道，用于从页面获取数据到拓展
+ * @type {PipeDevtool}
+ */
+
+
 function PipeDevtool() {
     var me = this;
     me.tryTimes = 0;

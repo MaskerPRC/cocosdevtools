@@ -21,14 +21,14 @@ module.exports = function (grunt) {
         files: {
           'bin_web/cocos-devtools-web.min.js' : [
             'src/I18n.js',
-            'src/tl.ui.ChartFPS.js',
-            'src/tl.ui.ScaleProfiles.js',
-            'src/tl.ui.AttrTable.js',
-            'src/tl.ui.TreeList.js',
+            'src/ChartFPS.js',
+            'src/ScaleProfiles.js',
+            'src/AttrTable.js',
+            'src/TreeList.js',
             'src/InspectElementConfig.js',
             'src/InspectElement.FixDrawNode.js',
             'src/InspectElement.js',
-            'src/index.web.js'
+            'src/web.js'
           ]
         }
       },
@@ -45,8 +45,8 @@ module.exports = function (grunt) {
           'bin/InspectElement.js' : ['bin/InspectElement.js'],
           'bin/PipeDevtool.js' : ['bin/PipeDevtool.js'],
           'bin/PipePage.js' : ['bin/PipePage.js'],
-          'bin/tl.ui.AttrTable.js' : ['bin/tl.ui.AttrTable.js'],
-          'bin/tl.ui.TreeList.js' : ['bin/tl.ui.TreeList.js']
+          'bin/AttrTable.js' : ['bin/AttrTable.js'],
+          'bin/TreeList.js' : ['bin/TreeList.js']
         }
       }
     },

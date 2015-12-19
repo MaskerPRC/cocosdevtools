@@ -1,3 +1,7 @@
+/**
+ * 消息管道池
+ */
+
 (function() {
     window.PipePage = function(){
         var me = this;

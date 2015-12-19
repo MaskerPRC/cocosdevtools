@@ -1,11 +1,5 @@
 (function (global, factory) {
-    if (typeof exports === "object" && exports) {
-        factory(exports); // CommonJS
-    } else if (typeof define === "function" && define.amd) {
-        define(['exports'], factory); // AMD
-    } else {
-        global['tl.ui.ChartFPS'] = factory({}); // <script>
-    }
+    global['ChartFPS'] = factory({}); // <script>
 }(this, function (exports) {
     exports = function(w, h, root) {
         /*t.apply(this, arguments), */

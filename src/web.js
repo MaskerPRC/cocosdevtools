@@ -57,19 +57,8 @@
                 <a name="tab-dock" title="'+I18n('Dock to left/top/right/bottom')+'" style="float:right" href="javascript:void(0)"><em class="iconfont">Ġ</em> '+I18n('Dock')+'</a>\
                 <a name="tab-elements" href="javascript:void(0)" class="sel">'+I18n('Elements')+'</a>\
                 <a name="tab-profiles" href="javascript:void(0)">'+I18n('Profiles')+'</a>\
-                <!--a name="tab-weibo" title="'+I18n('Share to Sina Weibo')+'" href="javascript:void(0)"><em class="iconfont">ǔ</em></a-->\
                 '
-                + ((I18n.lang == 'zh-cn') ?
-                '\
-                <div class="jiathis_style" style="float:left;padding-top:6px">\
-                    <a href="http://www.jiathis.com/share?uid=1980395" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank" style="background:none !important; padding-left:5px !important;"><em class="iconfont">Ŕ</em> '+I18n('Share to..')+'</a>\
-                    <a class="jiathis_counter_style" style="height:16px;padding:0px"></a>\
-                </div>\
-                <a name="tab-qq" title="'+I18n('Join QQ group')+'" target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=e5f1711550b86949675b416a9334a18f1055feb1e335a76a4b5b90e0b583f78e"><em class="iconfont">Ȍ</em></a>\
-                '
-                :
-                '<a class="share-this a2a_target" href="http://www.addtoany.com/share_save"><em class="iconfont">Ŕ</em> '+I18n('Share to..')+'</a>'
-                )+
+            +
             '</div>\
             <div class="clear" style="position:relative;height:200px;right:0px;left:0px;z-index:9999;background-color:#fff">\
                 <div id="container-elements" style="height:100%;">\
@@ -104,56 +93,14 @@
         containers = el.children[2],
         btn_elem = document.getElementById('btn_elem'),
         btn_dock = tabs.children[0];
-    
-    // cn     
-    if (I18n.lang == 'zh-cn'){
-        window.jiathis_config={
-            data_track_clickback:true,
-            url:"http://h5.cocoachina.com/static/cocos-devtools/",
-            summary:" ",
-            title:"Html5游戏调试神器全新出炉！调试Cocos2d游戏就这么任性！ #CocosDevtools#",
-            pic:"http://h5.cocoachina.com/static/cocos-devtools/a.jpg",
-            shortUrl:false,
-            hideMore:false
-        }
-        var jia_script = document.createElement('SCRIPT');
-        document.body.appendChild(jia_script);
-        jia_script.src = 'http://v3.jiathis.com/code/jia.js?uid=1980395';
-    // en
-    }else{
-        function my_addtoany_onready() {
-            a2a_config.target = '.share-this';
-            a2a.init('page');
-        }
-        
-        // Setup AddToAny "onReady" callback
-        window.a2a_config = {};
-        a2a_config.tracking_callback = {
-            ready: my_addtoany_onready
-        };
-        a2a_config.linkname="A new weapon for debugging cocos2d apps.";
-        a2a_config.linkurl="http://h5.cocos.com/static/cocos-devtools/index-en.html";        
-        // Additional a2a_config properties may go here
 
-        // Load AddToAny script asynchronously
-        (function(){
-            var a = document.createElement('script');
-            a.type = 'text/javascript';
-            a.async = true;
-            a.src = 'http://static.addtoany.com/menu/page.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(a, s);
-        })();
-        
-    }
-    
     el.addEventListener('click', function(e){
         //e.stopPropagation();
         //e.preventDefault();
         var d = e.target,
             n = d.name;
             
-        function clear_tabs(){    
+        function clear_tabs(){
             for (var i=0, j=tabs.children.length; i<j; i++){
                 if (tabs.children[i].tagName == 'A')
                     tabs.children[i].className = '';
@@ -291,13 +238,11 @@
 (function(_this){
     var _cd = {};
     _this._cocos_devtools = _cd;
-    
-    if (typeof window.cc == 'undefined'){ document.getElementById('left').innerHTML = 'Cocos2d-js engine is not loaded.'; return; }
-        // ui
+     // ui
         var tt, at, cf, sp, // ui
             ie, cfps, sph; // inject
             
-        tt = new _this['tl.ui.TreeList'](document.getElementById('left'));
+        tt = new _this['TreeList'](document.getElementById('left'));
         tt.on_hover = function(nd){
             nd && nd.__data && ie && ie.draw_rect(nd.__data.id, tt.selected ? tt.selected.id : null);
         };
@@ -361,7 +306,7 @@
             }
         };
         
-        at = new _this['tl.ui.AttrTable'](document.getElementById('right'));
+        at = new _this['AttrTable'](document.getElementById('right'));
         at.on_change = function(nd, attr, value){
             if (tt.selected){
                 var attr_obj = {};// write an object for set attribute
@@ -372,11 +317,11 @@
             }
         };
         
-        cf = new _this['tl.ui.ChartFPS'](null, null, document.getElementById('container-profiles'));
+        cf = new _this['ChartFPS'](null, null, document.getElementById('container-profiles'));
         cf.element.style.width = '100%';
         cf.element.style.height = '100px';
         
-        sp = new _this['tl.ui.ScaleProfiles'](document.getElementById('container-profiles'));
+        sp = new _this['ScaleProfiles'](document.getElementById('container-profiles'));
         sp.on_change = function(msg, value){
             if (msg == 'speed'){
                 sph && sph.adjust && sph.adjust(value);
@@ -473,9 +418,3 @@
 
 var _hmt = _hmt || [];
 _hmt.push(['_trackEvent', 'Open', 'CocosDevtools']);
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?cf6e56197d15d6d01685b29c92d56831";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();

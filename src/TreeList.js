@@ -1,11 +1,11 @@
+/**
+ * 建立节点树结构
+ * todo:已经可以执行，进一步理解
+ */
+
+
 (function (global, factory) {
-    if (typeof exports === "object" && exports) {
-        factory(exports); // CommonJS
-    } else if (typeof define === "function" && define.amd) {
-        define(['exports'], factory); // AMD
-    } else {
-        global['tl.ui.TreeList'] = factory({}); // <script>
-    }
+    global['TreeList'] = factory({}); // <script>
 }(this, function (exports) {
         //var Tree = function(root){        
         exports = function(root){
