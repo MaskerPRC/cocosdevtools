@@ -1,37 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cocosdevtools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src.crx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myself.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/egret.inspector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/gh-pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/I18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InspectElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsGear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsGear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipeDevtool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipeDevtool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PipePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tl.ui.AttrTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AttrTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tl.ui.ChartFPS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChartFPS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tl.ui.ScaleProfiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScaleProfiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tl.ui.TreeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeList.js" afterDir="false" />
-    </list>
+    <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +35,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591846110089</updated>
-      <workItem from="1591846112740" duration="5643000" />
+      <workItem from="1591846112740" duration="5645000" />
     </task>
     <servers />
   </component>
