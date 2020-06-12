@@ -62,8 +62,8 @@
                     }
                     to[name].value = {r: r, g: g, b: b, a: a};
                 } else if (type == 'size'){
-                    to[name].value = from[name].width;
-                    to[name].type = 'number'
+                    to[name].type = 'string';
+                    to[name].value = "{width:"+ from[name].width +",heignt:"+from[name].height+"}";
                 }else{
                     to[name].value = from[name];
                 }
