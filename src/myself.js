@@ -38,10 +38,9 @@
         // me.scene_data = scene_data, me.scene_hash = scene_hash;
 
         function set_attr(to, from, name, type, readonly, value, desc){
-            try{
+            try {
                 if (name == 'glServerState') return;
                 if (type == 'point') return;
-                if (type == 'size') return;
 
                 to[name] = {
                     type: type,
@@ -50,18 +49,21 @@
                     desc: desc || name
                 };
 
-                if (type == 'image'){
-                    from[name] && from[name].url && (to[name].value = base_url + '/' +cc.loader.resPath+ '/' + from[name].url);
-                }else if(type == 'color'){
+                if (type == 'image') {
+                    from[name] && from[name].url && (to[name].value = base_url + '/' + cc.loader.resPath + '/' + from[name].url);
+                } else if (type == 'color') {
                     var value = from[name];
-                    var r=255,g=255,b=255,a=255;
+                    var r = 255, g = 255, b = 255, a = 255;
                     // 为兼容cocos2d某个版本的webgl下,color,无rgb属性的bug
-                    if (value.r){ // 正常的color能取到rgb
-                        r = (value.r||value.red), g = (value.g || value.green), b = (value.b || value.blue);
-                    }else if (value._aU8){ // 非正常的color
-                        r = value._rU8[0],g = value._gU8[0],b = value._bU8[0];
+                    if (value.r) { // 正常的color能取到rgb
+                        r = (value.r || value.red), g = (value.g || value.green), b = (value.b || value.blue);
+                    } else if (value._aU8) { // 非正常的color
+                        r = value._rU8[0], g = value._gU8[0], b = value._bU8[0];
                     }
-                    to[name].value = {r:r,g:g,b:b,a:a};
+                    to[name].value = {r: r, g: g, b: b, a: a};
+                } else if (type == 'size'){
+                    to[name].value = from[name].width;
+                    to[name].type = 'number'
                 }else{
                     to[name].value = from[name];
                 }

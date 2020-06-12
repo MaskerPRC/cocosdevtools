@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="" />
+    <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myself.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/myself.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591846110089</updated>
       <workItem from="1591846112740" duration="5864000" />
+      <workItem from="1591931561975" duration="1424000" />
     </task>
     <servers />
   </component>
@@ -52,9 +56,9 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="360" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591878185142" />
-    <state x="497" y="268" width="797" height="606" key="find.popup" timestamp="1591848399070">
+    <state x="497" y="268" width="797" height="606" key="find.popup" timestamp="1591931706113">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="497" y="268" width="797" height="606" key="find.popup/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591848399070" />
+    <state x="497" y="268" width="797" height="606" key="find.popup/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591931706113" />
   </component>
 </project>
