@@ -9,7 +9,6 @@
 }(this, function (exports) {
         //var AttrTable = function(root){
         exports = function(root){
-            'use strict';
             var me = this;
             me.element = null;
             

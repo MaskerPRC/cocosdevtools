@@ -1,0 +1,19 @@
+
+^javascript:S1516"=Multiline support is limited to browsers supporting ES5 only.(¨’¶Éøÿÿÿÿ
+Yjavascript:S15169"=Multiline support is limited to browsers supporting ES5 only.(Ê½Ò¹
+^javascript:S1516:"=Multiline support is limited to browsers supporting ES5 only.(òşİşÿÿÿÿÿ
+^javascript:S1516;"=Multiline support is limited to browsers supporting ES5 only.(ğëºüÿÿÿÿ
+^javascript:S1516>"=Multiline support is limited to browsers supporting ES5 only.(È‹®ûÿÿÿÿ
+Yjavascript:S1516B"=Multiline support is limited to browsers supporting ES5 only.(‚ÃÍ
+Yjavascript:S1516C"=Multiline support is limited to browsers supporting ES5 only.(ÅÌÆ¿
+Ujavascript:S1481^"9Remove the declaration of the unused 'btn_elem' variable.(¤…Ï£
+Rjavascript:S1854^"6Remove this useless assignment to variable "btn_elem".(¤…Ï£
+3javascript:S2814l"'i' is already defined.(Ÿœ¼¡
+3javascript:S2814l"'j' is already defined.(Ÿœ¼¡
+Ljavascript:S1117|"+'e' is already declared in the upper scope.(Ñï—Úûÿÿÿÿ
+Ljavascript:S1117~"+'e' is already declared in the upper scope.(½î‹Ğÿÿÿÿÿ
+ojavascript:S1871¢"MThis branch's code block is the same as the block for the branch on line 287.(ÂÅÖ¢ÿÿÿÿÿ
+Ljavascript:S1117æ"/'_this' is already declared in the upper scope.(É÷ìŸ
+gjavascript:S905œ"FExpected an assignment or function call and instead saw an expression.(ğõëèøÿÿÿÿ
+Bjavascript:S878œ"!Unexpected use of comma operator.(ğõëèøÿÿÿÿ
+|javascript:S2703Ö"_Add the "let", "const" or "var" keyword to this declaration of "frameRate" to make it explicit.(½ÌÛ
