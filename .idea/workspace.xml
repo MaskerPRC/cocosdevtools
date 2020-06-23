@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AttrTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AttrTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InspectElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElementConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InspectElementConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myself.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webweb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myselfAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/web.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webweb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webweb.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
