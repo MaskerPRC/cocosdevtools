@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/deploy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/setting.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_original/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/.Rhistory" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/AttrTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/ChartFPS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/I18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/InspectElement.FixDrawNode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/InspectElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/InspectElementConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/JsGear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/PipeDevtool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/PipePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/ScaleProfiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/TreeList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/elements-main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/icon_128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/icon_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/injector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src_slots/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/script/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AttrTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/AttrTable.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChartFPS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/ChartFPS.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/I18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/I18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElement.FixDrawNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElement.FixDrawNode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElement.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InspectElementConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElementConfig.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JsGear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/JsGear.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipeDevtool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/PipeDevtool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PipePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/PipePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScaleProfiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/ScaleProfiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/TreeList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/elements-main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon_128.png" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/icon_128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/icon_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/icon_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/injector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/injector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webweb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/webPlugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +62,7 @@
       <workItem from="1592030401080" duration="4408000" />
       <workItem from="1592200557038" duration="407000" />
       <workItem from="1592225685390" duration="11171000" />
-      <workItem from="1592968000629" duration="4706000" />
+      <workItem from="1592968000629" duration="4920000" />
     </task>
     <servers />
   </component>
