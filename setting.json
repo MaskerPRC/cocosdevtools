@@ -1,0 +1,10 @@
+{
+  "build": {
+    "path": "../src_slots/"
+  },
+  "deploy": {
+    "path": "$COCOS_X_ROOT/../src/debug/controller/",
+    "file": "DebugGuiUtil.js"
+  }
+}
+

@@ -2,31 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/deploy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_original/.Rhistory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/.Rhistory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/AttrTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/ChartFPS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/I18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/InspectElement.FixDrawNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/InspectElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/InspectElementConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/JsGear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/PipeDevtool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/PipePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/ScaleProfiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/TreeList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/elements-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/icon_128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/icon_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/injector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src_slots/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cert/CocosDevTools.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/cocos-devtools-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy/start.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/attr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/bookmark.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/curr.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/devtools.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/index-en.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/screen.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gh-pages/treeview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src.crx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/ClassAttrGem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cocos.doclet" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/cocos.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/jsdoc_conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.Rhistory" beforeDir="false" afterPath="$PROJECT_DIR$/script/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AttrTable.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/AttrTable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChartFPS.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/ChartFPS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/I18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/I18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InspectElement.FixDrawNode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElement.FixDrawNode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InspectElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InspectElementConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/InspectElementConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsGear.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/JsGear.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipeDevtool.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/PipeDevtool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PipePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/PipePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScaleProfiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/ScaleProfiles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TreeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/TreeList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/elements-main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/elements.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon_128.png" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/icon_128.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icon_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/icon_48.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/injector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/injector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webweb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_original/webPlugin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,12 +75,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src_slots/bin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -67,7 +107,7 @@
       <workItem from="1592030401080" duration="4408000" />
       <workItem from="1592200557038" duration="407000" />
       <workItem from="1592225685390" duration="11171000" />
-      <workItem from="1592968000629" duration="771000" />
+      <workItem from="1592968000629" duration="4706000" />
     </task>
     <servers />
   </component>
@@ -84,13 +124,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="593" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592981144162" />
-    <state x="487" y="285" width="797" height="606" key="find.popup" timestamp="1592296798515">
-      <screen x="0" y="23" width="1757" height="1097" />
+    <state x="497" y="267" width="813" height="619" key="find.popup" timestamp="1592984448433">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="487" y="285" width="797" height="606" key="find.popup/-1920.-565.1920.1177/0.23.1757.1097@0.23.1757.1097" timestamp="1592296798515" />
+    <state x="497" y="267" width="813" height="619" key="find.popup/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592984448433" />
     <state x="497" y="268" width="797" height="606" key="find.popup/-39.-1177.1920.1177/0.0.1792.1120@0.0.1792.1120" timestamp="1591957650229" />
     <state x="497" y="268" width="797" height="606" key="find.popup/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591935211455" />
     <state x="497" y="285" width="797" height="606" key="find.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1592032939207" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src_original/webPlugin.js</url>
+          <line>15269</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="regexState">
     <option name="map">
