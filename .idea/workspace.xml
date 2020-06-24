@@ -3,8 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/webweb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/webweb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cert/CocosDevTools.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/cocos-devtools-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/attr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/bookmark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/curr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/devtools.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/index-en.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/screen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gh-pages/treeview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src.crx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/ClassAttrGem.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos.doclet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/cocos.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/jsdoc_conf.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +67,7 @@
       <workItem from="1592030401080" duration="4408000" />
       <workItem from="1592200557038" duration="407000" />
       <workItem from="1592225685390" duration="11171000" />
+      <workItem from="1592968000629" duration="771000" />
     </task>
     <servers />
   </component>
@@ -62,6 +80,10 @@
     </state>
     <state x="353" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-565.1920.1177/0.23.1757.1097@0.23.1757.1097" timestamp="1592296343020" />
     <state x="360" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591878185142" />
+    <state x="593" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592981144162">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="593" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592981144162" />
     <state x="487" y="285" width="797" height="606" key="find.popup" timestamp="1592296798515">
       <screen x="0" y="23" width="1757" height="1097" />
     </state>
