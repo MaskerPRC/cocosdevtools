@@ -1,6 +1,8 @@
 {
+  "env": "../src_slots/",
   "build": {
-    "path": "../src_slots/"
+    "bin": "../src_slots/bin/",
+    "file": "slotsPlugin.js"
   },
   "deploy": {
     "path": "$COCOS_X_ROOT/../src/debug/controller/",

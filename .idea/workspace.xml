@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f4b5e54-e437-4d0e-8bb3-0458068914a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting.json" beforeDir="false" afterPath="$PROJECT_DIR$/setting.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_slots/InspectElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_slots/InspectElement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src_slots/InspectElementConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/src_slots/InspectElementConfig.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +51,11 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="build.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="script/build.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -62,7 +72,10 @@
       <workItem from="1592030401080" duration="4408000" />
       <workItem from="1592200557038" duration="407000" />
       <workItem from="1592225685390" duration="11171000" />
-      <workItem from="1592968000629" duration="4920000" />
+      <workItem from="1592968000629" duration="9677000" />
+      <workItem from="1592997920605" duration="1475000" />
+      <workItem from="1594126148430" duration="58000" />
+      <workItem from="1594126475787" duration="450000" />
     </task>
     <servers />
   </component>
@@ -70,15 +83,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592296343020">
-      <screen x="0" y="23" width="1757" height="1097" />
+    <state x="624" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592992632681">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="353" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-565.1920.1177/0.23.1757.1097@0.23.1757.1097" timestamp="1592296343020" />
+    <state x="624" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992632681" />
     <state x="360" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/-39.-1177.1920.1177/0.23.1792.1097@0.23.1792.1097" timestamp="1591878185142" />
     <state x="593" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592981144162">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="593" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592981144162" />
+    <state width="870" height="355" key="GridCell.Tab.0.bottom" timestamp="1592992747504">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.0.bottom/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747504" />
+    <state width="870" height="355" key="GridCell.Tab.0.center" timestamp="1592992747503">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.0.center/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747503" />
+    <state width="870" height="355" key="GridCell.Tab.0.left" timestamp="1592992747502">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.0.left/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747502" />
+    <state width="870" height="355" key="GridCell.Tab.0.right" timestamp="1592992747504">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.0.right/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747504" />
+    <state width="870" height="355" key="GridCell.Tab.1.bottom" timestamp="1592992747507">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.1.bottom/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747507" />
+    <state width="870" height="355" key="GridCell.Tab.1.center" timestamp="1592992747506">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.1.center/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747506" />
+    <state width="870" height="355" key="GridCell.Tab.1.left" timestamp="1592992747505">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.1.left/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747505" />
+    <state width="870" height="355" key="GridCell.Tab.1.right" timestamp="1592992747506">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="870" height="355" key="GridCell.Tab.1.right/-1920.-588.1920.1200/0.0.1792.1120@0.0.1792.1120" timestamp="1592992747506" />
     <state x="497" y="267" width="813" height="619" key="find.popup" timestamp="1592984448433">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -94,8 +140,12 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src_original/webPlugin.js</url>
           <line>15269</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/script/build.js</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

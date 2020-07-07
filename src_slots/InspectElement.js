@@ -53,8 +53,29 @@
                         b: b,
                         a: a
                     };
-                } else {
+                } else if (type === 'size') {
+                    delete to[name];
+                    to[name+"X"] = {
+                        type: type,
+                        readonly: readonly,
+                        desc: desc+" X" || name
+                    };
+                    to[name+"Y"] = {
+                        type: type,
+                        readonly: readonly,
+                        desc: desc+" Y" || name
+                    };
+                    to[name+"X"].type = 'number';
+                    to[name+"Y"].type = 'number';
+                    to[name+"X"].value = from[name].width;
+                    to[name+"Y"].value = from[name].height;
+                }
+                else {
                     to[name].value = from[name];
+                    if(name === "runningSequence") {
+                            to[name].value = from['controller'] && from['controller']['controllerName'];
+                            if(!to[name].value) delete to[name];
+                    }
                 }
             } catch (e) {}
         }
