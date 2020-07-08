@@ -7259,7 +7259,7 @@ var InspectElementConfig = { ClippingNode:
                  value: 0 } },
    Node:
 
-       { runningSequence:{ desc: '正在运行的时间线', type: 'string', value: ""},
+       { runningSequence:{ desc: '正在运行的时间线', type: 'size', value: null},
               x: { desc: 'x axis position of node', type: 'number', value: 0 },
           y: { desc: 'y axis position of node', type: 'number', value: 0 },
           width: { desc: 'Width of node', type: 'number', value: 0 },

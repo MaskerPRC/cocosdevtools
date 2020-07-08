@@ -55,20 +55,20 @@
                     };
                 } else if (type === 'size') {
                     delete to[name];
-                    to[name+"X"] = {
+                    to[name+"Width"] = {
                         type: type,
                         readonly: readonly,
-                        desc: desc+" X" || name
+                        desc: desc+" Width" || name
                     };
-                    to[name+"Y"] = {
+                    to[name+"Height"] = {
                         type: type,
                         readonly: readonly,
-                        desc: desc+" Y" || name
+                        desc: desc+" Height" || name
                     };
-                    to[name+"X"].type = 'number';
-                    to[name+"Y"].type = 'number';
-                    to[name+"X"].value = from[name].width;
-                    to[name+"Y"].value = from[name].height;
+                    to[name+"Width"].type = 'number';
+                    to[name+"Height"].type = 'number';
+                    to[name+"Width"].value = from[name].width;
+                    to[name+"Height"].value = from[name].height;
                 }
                 else {
                     to[name].value = from[name];
