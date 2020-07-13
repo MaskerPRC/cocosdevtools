@@ -17186,4 +17186,3 @@ var DebugGuiUtil = function () {
         })();
 }
 DebugGuiUtil();
-module.exports = DebugGuiUtil;
