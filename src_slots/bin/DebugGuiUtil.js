@@ -15392,34 +15392,38 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                             },
                                                             inspect_node;
 
-                                                        function find(tree_children) {
-                                                                var node, result = null,
-                                                                    box;
-                                                                for (var i = tree_children.length - 1; i >= 0; i--) {
-                                                                        node = tree_children[i];
-                                                                        box = node.getBoundingBoxToWorld();
+                                                    var find = function (tree_children, maxi) {
 
-                                                                        // if hittest
-                                                                        if (node.visible &&
-                                                                            pos.x >= box.x &&
-                                                                            pos.y >= box.y &&
-                                                                            pos.x <= box.x + box.width &&
-                                                                            pos.y <= box.y + box.height
-                                                                        ) {
-                                                                                result = node;
-                                                                                break;
-                                                                        }
-                                                                }
-                                                                if (result != null) {
-                                                                        if (result.getLocalZOrder() < 0) return result;
+                                                        var node, result = null, box;
+                                                        var ii = 0;
+                                                        for (var i = maxi; i >= 0; i--) {
+                                                            node = tree_children[i];
+                                                            box = node.getBoundingBoxToWorld();
 
-                                                                        if (result.getChildren().length > 0) {
-                                                                                var r = find(result.getChildren());
-                                                                                if (r != null) return r;
-                                                                        }
-                                                                }
-                                                                return result;
+                                                            // if hittest
+                                                            if (node.visible &&
+                                                                pos.x >= box.x &&
+                                                                pos.y >= box.y &&
+                                                                pos.x <= box.x + box.width &&
+                                                                pos.y <= box.y + box.height
+                                                            ) {
+                                                                result = node;
+                                                                ii = i;
+                                                                break;
+
+                                                            }
                                                         }
+                                                        if (result != null) {
+                                                            if (result.getLocalZOrder() < 0) return result;
+
+                                                            if (result.getChildren().length > 0) {
+                                                                var r = find(result.getChildren(),  result.getChildren().length - 1);
+                                                                if (r != null) return r;
+                                                                else return find(tree_children, ii-1);
+                                                            }
+                                                        }
+                                                        return result;
+                                                    };
 
                                                         function find_fullpath(node) {
                                                                 var path = [serialize_item_data(node).data]; // default is me
@@ -15490,7 +15494,7 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                         y: Math.round((cc.container.clientHeight - layerY) / cc.view.getScaleY())
                                                                 };
 
-                                                                inspect_node = find(cc.director.getRunningScene().getChildren());
+                                                                inspect_node = find(cc.director.getRunningScene().getChildren(),cc.director.getRunningScene().getChildren().length-1);
                                                                 draw_rect(inspect_node, scenedraw_nodes.selected_node);
                                                         };
                                                         el.onclick = function (e) {
@@ -16053,9 +16057,11 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                         if (document.getElementById('cocos2d_inspect_layer')) return;
                                                         var pos = {x: 0, y: 0}, inspect_node;
 
-                                                        var find = function (tree_children) {
+                                                        var find = function (tree_children, maxi) {
+
                                                                 var node, result = null, box;
-                                                                for (var i = tree_children.length - 1; i >= 0; i--) {
+                                                                var ii = 0;
+                                                                for (var i = maxi; i >= 0; i--) {
                                                                         node = tree_children[i];
                                                                         box = node.getBoundingBoxToWorld();
 
@@ -16067,6 +16073,7 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                             pos.y <= box.y + box.height
                                                                         ) {
                                                                                 result = node;
+                                                                                ii = i;
                                                                                 break;
 
                                                                         }
@@ -16075,8 +16082,9 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                         if (result.getLocalZOrder() < 0) return result;
 
                                                                         if (result.getChildren().length > 0) {
-                                                                                var r = find(result.getChildren());
+                                                                                var r = find(result.getChildren(),result.getChildren().length-1);
                                                                                 if (r != null) return r;
+                                                                                else return find(tree_children, ii-1);
                                                                         }
                                                                 }
                                                                 return result;
@@ -16151,7 +16159,7 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                         y: Math.round((cc.container.clientHeight - layerY) / cc.view.getScaleY())
                                                                 };
 
-                                                                inspect_node = find(cc.director.getRunningScene().getChildren());
+                                                                inspect_node = find(cc.director.getRunningScene().getChildren(),cc.director.getRunningScene().getChildren().length-1);
                                                                 draw_rect(inspect_node, scenedraw_nodes.selected_node);
                                                         };
                                                         el.onclick = function (e) {
@@ -17747,3 +17755,4 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
         })();
 }
 DebugGuiUtil();
+module.exports = DebugGuiUtil;
