@@ -15405,7 +15405,8 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                 pos.x >= box.x &&
                                                                 pos.y >= box.y &&
                                                                 pos.x <= box.x + box.width &&
-                                                                pos.y <= box.y + box.height
+                                                                pos.y <= box.y + box.height &&
+                                                                node._className !== "ParticleSystem"
                                                             ) {
                                                                 result = node;
                                                                 ii = i;
