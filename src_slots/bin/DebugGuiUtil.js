@@ -16107,7 +16107,7 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                                 if(parent.Controller) {
                                                                                     for(var key in parent.Controller){
                                                                                         if(parent.Controller[key] && parent.Controller[key].__instanceId && parent.Controller[key].__instanceId == nd_dom.id) {
-                                                                                            nd_dom.innerHTML = '<b>' + nd.text +": "+'<em style="color:aqua">'+key+'</em>' + '</b>';
+                                                                                            nd_dom.innerHTML = '<b>' + nd.text +": "+'<em style="color:fuchsia">'+key+'</em>' + '</b>';
                                                                                             if(nd.attr.AttrName) nd.attr.AttrName.value = key;
                                                                                             break;
                                                                                         }
