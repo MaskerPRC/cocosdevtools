@@ -18,7 +18,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -118,7 +123,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -216,7 +226,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -405,7 +420,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -483,7 +503,12 @@ var DebugGuiUtil = function () {
                                     },
                                 Layer:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -581,7 +606,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -679,7 +709,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -813,7 +848,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -891,7 +931,12 @@ var DebugGuiUtil = function () {
                                     },
                                 LayerMultiplex:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -969,7 +1014,12 @@ var DebugGuiUtil = function () {
                                     },
                                 Scene:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1118,7 +1168,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1196,7 +1251,12 @@ var DebugGuiUtil = function () {
                                     },
                                 SpriteBatchNode:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1297,7 +1357,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1382,7 +1447,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1486,7 +1556,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1590,7 +1665,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1706,7 +1786,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1822,7 +1907,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -1940,7 +2030,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2044,7 +2139,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2148,7 +2248,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2253,7 +2358,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2369,7 +2479,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2447,7 +2562,12 @@ var DebugGuiUtil = function () {
                                     },
                                 ParallaxNode:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -2743,7 +2863,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -3039,7 +3164,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -3335,7 +3465,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -3631,7 +3766,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -3927,7 +4067,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -4223,7 +4368,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -4519,7 +4669,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -4815,7 +4970,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -5111,7 +5271,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -5407,7 +5572,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -5703,7 +5873,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -5999,7 +6174,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6295,7 +6475,12 @@ var DebugGuiUtil = function () {
                                                         type: 'image',
                                                         value: null
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6373,7 +6558,12 @@ var DebugGuiUtil = function () {
                                     },
                                 PhysicsDebugNode:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6495,7 +6685,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6587,7 +6782,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6665,7 +6865,12 @@ var DebugGuiUtil = function () {
                                     },
                                 DrawNode:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6863,7 +7068,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -6963,7 +7173,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7047,7 +7262,12 @@ var DebugGuiUtil = function () {
                                             layerHeight: {desc: 'Height of the layer', type: 'number', value: 0},
                                             tileWidth: {desc: 'Width of a tile', type: 'number', value: 0},
                                             tileHeight: {desc: 'Height of a tile', type: 'number', value: 0},
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7130,7 +7350,12 @@ var DebugGuiUtil = function () {
                                             mapHeight: {desc: 'Height of the map', type: 'number', value: 0},
                                             tileWidth: {desc: 'Width of a tile', type: 'number', value: 0},
                                             tileHeight: {desc: 'Height of a tile', type: 'number', value: 0},
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7208,7 +7433,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionScene:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7286,7 +7516,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSceneOriented:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7364,7 +7599,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionRotoZoom:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7442,7 +7682,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionJumpZoom:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7520,7 +7765,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionMoveInL:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7598,7 +7848,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionMoveInR:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7676,7 +7931,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionMoveInT:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7754,7 +8014,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionMoveInB:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7832,7 +8097,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSlideInL:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7910,7 +8180,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSlideInR:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -7988,7 +8263,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSlideInB:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8066,7 +8346,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSlideInT:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8144,7 +8429,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionShrinkGrow:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8222,7 +8512,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFlipX:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8300,7 +8595,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFlipY:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8378,7 +8678,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFlipAngular:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8456,7 +8761,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionZoomFlipX:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8534,7 +8844,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionZoomFlipY:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8612,7 +8927,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionZoomFlipAngular:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8690,7 +9010,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFade:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8768,7 +9093,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionCrossFade:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8846,7 +9176,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionTurnOffTiles:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -8924,7 +9259,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSplitCols:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9002,7 +9342,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionSplitRows:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9080,7 +9425,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFadeTR:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9158,7 +9508,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFadeBL:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9236,7 +9591,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFadeUp:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9314,7 +9674,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionFadeDown:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9392,7 +9757,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionPageTurn:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9470,7 +9840,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgress:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9548,7 +9923,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressRadialCCW:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9626,7 +10006,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressRadialCW:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9704,7 +10089,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressHorizontal:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9782,7 +10172,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressVertical:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9860,7 +10255,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressInOut:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -9938,7 +10338,12 @@ var DebugGuiUtil = function () {
                                     },
                                 TransitionProgressOutIn:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10077,7 +10482,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10222,7 +10632,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10312,7 +10727,12 @@ var DebugGuiUtil = function () {
                                                         type: 'string',
                                                         value: ""
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10481,7 +10901,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10626,7 +11051,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10795,7 +11225,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -10964,7 +11399,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11115,7 +11555,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11254,7 +11699,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11399,7 +11849,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11538,7 +11993,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11683,7 +12143,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -11873,7 +12338,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12018,7 +12488,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12163,7 +12638,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12379,7 +12859,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12556,7 +13041,12 @@ var DebugGuiUtil = function () {
                                                         type: 'number',
                                                         value: 0
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12656,7 +13146,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12773,7 +13268,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -12929,7 +13429,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13150,7 +13655,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13273,7 +13783,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13420,7 +13935,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13543,7 +14063,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13675,7 +14200,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13822,7 +14352,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -13966,7 +14501,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -14121,7 +14661,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -14281,7 +14826,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -14359,7 +14909,12 @@ var DebugGuiUtil = function () {
                                     },
                                 Spacer:
                                     {
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -14487,7 +15042,12 @@ var DebugGuiUtil = function () {
                                                         type: 'boolean',
                                                         value: false
                                                 },
-                                            x: {desc: 'x axis position of node', type: 'number', value: 0},
+                                             AttrName:{
+                                            desc: '类内部属性名',
+                                            type: 'string',
+                                            value: ""
+                                        },
+x: {desc: 'x axis position of node', type: 'number', value: 0},
                                             y: {desc: 'y axis position of node', type: 'number', value: 0},
                                             width: {desc: 'Width of node', type: 'number', value: 0},
                                             height: {desc: 'Height of node', type: 'number', value: 0},
@@ -16180,6 +16740,7 @@ var DebugGuiUtil = function () {
                                                                                     for(var key in parent.Controller){
                                                                                         if(parent.Controller[key] && parent.Controller[key].__instanceId && parent.Controller[key].__instanceId == nd_dom.id) {
                                                                                             nd_dom.innerHTML = '<b>' + nd.text +": "+'<em style="color:aqua">'+key+'</em>' + '</b>';
+                                                                                            if(nd.attr.AttrName) nd.attr.AttrName.value = key;
                                                                                             break;
                                                                                         }
                                                                                     }
