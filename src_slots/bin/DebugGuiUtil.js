@@ -17051,7 +17051,7 @@ x: {desc: 'x axis position of node', type: 'number', value: 0},
                                                                 }
 
                                                                 function create_item(attr, data) {
-                                                                        if(!data) return;
+                                                                        if(!data || !data.hasOwnProperty("value")) return;
                                                                         var el = document.createElement('DIV');
                                                                         el.className = 'tl-ui-attr-i';
                                                                         el.innerHTML = '<label>' + attr + ':</label>';
