@@ -1,1 +1,1 @@
-Extends Chrome Developer Tools, adding a tab that displays the Cocos2d engine data
+cocosjs游戏网页端调试工具，扩展了一些特性
